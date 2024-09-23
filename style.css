@@ -39,7 +39,7 @@ input {
 .dropdown-home-loan {
   display: none;
   position: absolute;
-  top: 9%;
+  top: 7%;
   padding: 5px 2px;
   background-color: rgba(132, 179, 132, 0.9);
   min-width: 160px;
@@ -69,7 +69,7 @@ input {
 .dropdown-banking {
   display: none;
   position: absolute;
-  top: 9%;
+  top: 7%;
   padding: 5px 2px;
   background-color: #8fa5d4e7;
   min-width: 160px;
@@ -98,7 +98,7 @@ input {
 .dropdown-insurance {
   display: none;
   position: absolute;
-  top: 9%;
+  top: 7%;
   padding: 5px 2px;
   background-color: #c888c8e5;
   min-width: 160px;
@@ -154,4 +154,40 @@ input {
   padding: 0px 10px;
   text-decoration: none;
   display: inline-block;
+}
+
+@media (max-width:540px) {
+  .dropdown-banking{
+    top: 7%;
+  }
+  .dropdown-insurance{
+    top: 7%;
+  }
+  .dropdown-home-loan{
+    top: 7%;
+  }
+}
+
+@media (max-width:1023px) and (min-width:541px) {
+  .dropdown-banking{
+    top: 6%;
+  }
+  .dropdown-home-loan{
+    top: 6%;
+  }
+  .dropdown-insurance{
+    top: 6%;
+  }
+}
+
+@media (max-width:3000px) and (min-width:1560px) {
+  .dropdown-banking{
+    top: 6%;
+  }
+  .dropdown-insurance{
+    top: 6%;
+  }
+  .dropdown-home-loan{
+    top: 6%;
+  }
 }
