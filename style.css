@@ -180,7 +180,7 @@ input {
   }
 }
 
-@media (max-width:3000px) and (min-width:1560px) {
+@media (max-width:3000px) and (min-width:1023px) {
   .dropdown-banking{
     top: 6%;
   }
